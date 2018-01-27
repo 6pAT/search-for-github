@@ -20,12 +20,7 @@ export class SerchUserComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.gitHubService.searchUser('dmgame').subscribe(user => {
-      this.user = user;
-      console.log(user);
-    })
   }
-
 
   onSearch(form) {
     this.searchingUser = true;

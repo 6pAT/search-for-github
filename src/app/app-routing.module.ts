@@ -6,7 +6,7 @@ import { AboutAppComponent } from "./components/about-app/about-app.component";
 
 const ROUTES: Routes = [
   { path: 'info', component: InfoComponent},
-  { path: 'aboutapp', component: AboutAppComponent},
+  { path: 'about-app', component: AboutAppComponent},
   { path: '', component:HomeComponent}
 ];
 
