@@ -16,7 +16,6 @@ export class HomeComponent implements OnInit {
 
   onNewMessage(message){
     this.newMessage = message;
-    console.log(message);
   }
 
 }
